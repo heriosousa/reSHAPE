@@ -1,0 +1,13 @@
+#!/bin/sh
+
+#Shell script to run a statistics report on either a fasta file or a fastq file to display total size and N50 style information.
+#!/bin/sh
+
+
+if [ $# -ne 1 ]
+then
+       	awk '{print $1,$3}' | $GARMBIN/N50.pl
+	exit
+fi
+
+$GARMBIN/tag.pl $1 | awk '{print $1,$3}' | $GARMBIN/N50.pl
