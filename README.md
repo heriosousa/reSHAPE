@@ -1,8 +1,8 @@
-#reSHAPE
+# reSHAPE
 
 reSHAPE (Sousa's Hybrid Assembly Pipeline) is an assembly pipeline which combines different genome assembly tools using different sequencing technologies.
 
-##Copyright and license
+## Copyright and license
 
 reSHAPE is free, open source software. Source code from third-part software used in this pipeline can be found at:
 
@@ -18,7 +18,7 @@ Current used versions:
 - Canu (version 1.3)
 - QUAST (version 4.5)
 
-##Requirements
+## Requirements
 
 - 64-bit Linux
 - Perl v5.8 or above
@@ -26,13 +26,13 @@ Current used versions:
 	Parallel::ForkManager
 	List::MoreUtils
 
-##Installation 
+## Installation 
 
 - After having Perl and required modules installed you can install each third-part software one-by-one or run the following command:
 
 source install.sh
 
-##Usage examples
+## Usage examples
 
 reshape.py <MiSeq 1 FASTQ> <MiSeq 2 FASTQ> <PacBio FASTQ> <genome_size> <Preassembly FASTA>
 
@@ -40,7 +40,7 @@ reshape.py <MiSeq 1 FASTQ> <MiSeq 2 FASTQ> <PacBio FASTQ> <genome_size>
 
 Where <genome_size> should be provided according to http://canu.readthedocs.io/en/latest/parameter-reference.html#parameter-reference
 
-##Quick start
+## Quick start
 
 Go to samples directory and decompress both MiSeq files. Right after, go back to reSHAPE base directory and execute:
 
