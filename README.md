@@ -25,6 +25,7 @@ Current used versions:
 - Perl Modules: 
 	Parallel::ForkManager
 	List::MoreUtils
+- Python 2.7+
 
 ## Installation 
 
