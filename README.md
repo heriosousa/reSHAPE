@@ -1,6 +1,6 @@
 # reSHAPE
 
-reSHAPE (Sousa's Hybrid Assembly Pipeline) is an assembly pipeline which combines different genome assembly tools using different sequencing technologies.
+reSHAPE (Sousa's Hybrid Assembly Pipeline) is an assembly pipeline which combines different genome assembly tools using reads from different sequencing technologies.
 
 ## Copyright and license
 
@@ -47,6 +47,6 @@ Go to samples directory and decompress both MiSeq files. Right after, go back to
 
 ./reshape.py samples/miseq1.fastq samples/miseq2.fastq samples/pacbio.fastq 2m samples/asm.fasta
 
-Final assembly will be located on: results_datetime/garm-final/final_merged_contigs.fasta
+Final assembly will be located at: results_datetime/garm-final/final_merged_contigs.fasta
 
-You can also find assembly statistics of each stage on: results_datetime/quast/report.txt
+You can also find assembly statistics of each stage at: results_datetime/quast/report.txt
